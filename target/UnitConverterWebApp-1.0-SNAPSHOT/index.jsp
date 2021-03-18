@@ -2,12 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<div class="center">
+    <div class="content">
+        <p>Select Unit</p>
+
+        <form action="metric_buttons.jsp" method="get">
+            <button class="button" type="submit"  formaction="metric_buttons.jsp">Metric</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
