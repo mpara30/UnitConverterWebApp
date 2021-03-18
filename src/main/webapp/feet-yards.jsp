@@ -21,7 +21,7 @@
 
         <form class="label-maker" action="/calculatedYards" method="post">
 
-            <label for="feet">Yards value:</label>
+            <label for="feet">Feet value:</label>
             <input id="feet" type="double" name="feet" value=${feet}>
 
             <button class="button" type="submit">Calculate</button>
