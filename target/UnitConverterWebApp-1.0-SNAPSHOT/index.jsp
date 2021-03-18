@@ -11,7 +11,7 @@
         <p>Select Unit</p>
 
         <form action="metric_buttons.jsp" method="get">
-            <button class="button" type="submit"  formaction="metric_buttons.jsp">Metric</button>
+            <button class="button" type="submit"  formaction="metric_buttons.jsp">Length</button>
         </form>
     </div>
 </div>

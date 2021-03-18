@@ -15,11 +15,11 @@
         <form class="label-maker" action="/calculatedCm" method="post">
 
             <label for="feet">Feet value:</label>
-            <input id="feet" type="number" name="feet" value=${feet}>
+            <input id="feet" type="double" name="feet" value=${feet}>
 
             <button class="button" type="submit">Calculate</button>
 
-            <p>Result: ${result} Centimeters</p>
+            <p>Result: ${result} centimeters</p>
 
         </form>
     </div>

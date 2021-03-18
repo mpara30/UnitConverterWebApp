@@ -20,6 +20,10 @@
         <form action="feet-cm.jsp" method="get">
             <button class="button" type="submit"  formaction="feet-cm.jsp">Feet -> Centimeters</button>
         </form>
+
+        <form action="feet-yards.jsp" method="get">
+            <button class="button" type="submit"  formaction="feet-yards.jsp">Feet -> Yards</button>
+        </form>
     </div>
 </div>
 </body>

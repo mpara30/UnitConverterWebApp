@@ -32,6 +32,16 @@
         <servlet-name>FeetToCentimetersServlet</servlet-name>
         <servlet-class>servlet.FeetToCentimetersServlet</servlet-class>
     </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FeetToYardsServlet</servlet-name>
+        <url-pattern>/calculatedYards</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FeetToYardsServlet</servlet-name>
+        <servlet-class>servlet.FeetToYardsServlet</servlet-class>
+    </servlet>
 </web-app>
 
 
