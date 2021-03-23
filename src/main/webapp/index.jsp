@@ -15,6 +15,10 @@
             <form action="metric_buttons.jsp" method="get">
                 <button class="button" type="submit"  formaction="metric_buttons.jsp">Length</button>
             </form>
+
+            <form action="temperature.jsp" method="get">
+                <button class="button" type="submit"  formaction="temperature.jsp">Temperature</button>
+            </form>
         </div>
     </div>
 </div>

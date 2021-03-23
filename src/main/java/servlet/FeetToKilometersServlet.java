@@ -7,11 +7,11 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "FeetToMeterServlet", urlPatterns = {"/calculatedMeter"})
-public class FeetToMeterServlet extends HttpServlet {
+@WebServlet(name = "FeetToKilometersServlet", urlPatterns = {"/calculatedKilometers"})
+public class FeetToKilometersServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //getServletContext().getRequestDispatcher("/feet-meter.jsp").forward(request, response);
+        getServletContext().getRequestDispatcher("/feet-kilometers.jsp").forward(request, response);
     }
 
     @Override
@@ -24,13 +24,12 @@ public class FeetToMeterServlet extends HttpServlet {
             error = "Input box is empty or you didn't provide a valid number";
             request.setAttribute("error", error);
         } else {
-            double result = LengthCalculation.calculateFeetToMeter(Double.parseDouble(feet));
+            double result = LengthCalculation.calculateFeetToKm(Double.parseDouble(feet));
             request.setAttribute("result", result);
         }
 
         request.setAttribute("feet", feet);
 
-        //getServletContext().getRequestDispatcher("/feet-meter.jsp").forward(request, response);
-
+        getServletContext().getRequestDispatcher("/feet-kilometers.jsp").forward(request, response);
     }
 }

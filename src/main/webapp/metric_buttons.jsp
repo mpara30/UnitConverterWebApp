@@ -27,6 +27,14 @@
                 <button class="button" type="submit"  formaction="feet-yards.jsp">Feet -> Yards</button>
             </form>
 
+            <form action="feet-kilometers.jsp" method="get">
+                <button class="button" type="submit"  formaction="feet-kilometers.jsp">Feet -> Kilometers</button>
+            </form>
+
+            <form action="feet-miles.jsp" method="get">
+                <button class="button" type="submit"  formaction="feet-miles.jsp">Feet -> Miles</button>
+            </form>
+
         </div>
     </div>
 </div>
