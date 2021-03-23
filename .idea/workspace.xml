@@ -28,6 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/mpara30/UnitConverterWebApp" />
+      </set>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -163,7 +170,7 @@
       <workItem from="1616060178168" duration="21150000" />
       <workItem from="1616095513576" duration="5148000" />
       <workItem from="1616317147031" duration="582000" />
-      <workItem from="1616505011037" duration="4707000" />
+      <workItem from="1616505011037" duration="16274000" />
     </task>
     <servers />
   </component>

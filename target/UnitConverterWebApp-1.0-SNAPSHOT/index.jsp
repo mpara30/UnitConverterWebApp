@@ -19,6 +19,14 @@
             <form action="temperature.jsp" method="get">
                 <button class="button" type="submit"  formaction="temperature.jsp">Temperature</button>
             </form>
+
+            <form action="weight.jsp" method="get">
+                <button class="button" type="submit"  formaction="weight.jsp">Weight</button>
+            </form>
+
+            <form action="speed.jsp" method="get">
+                <button class="button" type="submit"  formaction="speed.jsp">Speed</button>
+            </form>
         </div>
     </div>
 </div>
