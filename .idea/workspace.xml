@@ -10,31 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c3ac184-e0c9-4889-afe8-1c5b4882500f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/LengthServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculation/LengthCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculation/LengthCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToCentimetersServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToInchesServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToKilometersServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToMeterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToMilesServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FeetToYardsServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-cm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-inches.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-kilometers.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-meter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-miles.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/feet-yards.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/metric_buttons.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-cm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-inches.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-kilometers.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-meter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-miles.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/feet-yards.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnitConverterWebApp-1.0-SNAPSHOT/metric_buttons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +186,7 @@
       <workItem from="1616698499212" duration="746000" />
       <workItem from="1616769707793" duration="24000" />
       <workItem from="1616865155288" duration="150000" />
-      <workItem from="1617085046117" duration="4411000" />
+      <workItem from="1617085046117" duration="5657000" />
     </task>
     <servers />
   </component>
