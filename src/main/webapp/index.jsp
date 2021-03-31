@@ -27,6 +27,11 @@
             <form action="speed.jsp" method="get">
                 <button class="button" type="submit"  formaction="speed.jsp">Speed</button>
             </form>
+
+            <form action="time.jsp" method="get">
+                <button class="button" type="submit" formaction="time.jsp">Time</button>
+            </form>
+
         </div>
     </div>
 </div>
