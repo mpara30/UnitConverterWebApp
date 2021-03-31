@@ -37,4 +37,15 @@
   - Hour
   - Day
 
+## Screenshots
+
+1.Menu
+![Menu](https://github.com/mpara30/UnitConverterWebApp/blob/main/screenshots/Screenshot_1.png)
+
+2.Temperature Conversion
+![Temperature Conversion](https://github.com/mpara30/UnitConverterWebApp/blob/main/screenshots/Screenshot_2.png)
+
+3.Speed Conversion
+![Speed Conversion](https://github.com/mpara30/UnitConverterWebApp/blob/main/screenshots/Screenshot_3.png)
+
 _Technologies used: Java, Apache Tomcat, CSS_
