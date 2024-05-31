@@ -1,4 +1,4 @@
-package calculation;
+package com.calculation;
 
 public class TemperatureCalculation {
 

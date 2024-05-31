@@ -1,4 +1,4 @@
-package calculation;
+package com.calculation;
 
 public class WeightCalculation {
     public static double calculateMilligramToGram(double milligram){

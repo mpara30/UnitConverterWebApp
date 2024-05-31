@@ -1,4 +1,4 @@
-package calculation;
+package com.calculation;
 
 public class SpeedCalculation {
     public static double calculateMphToKph(double mph){
