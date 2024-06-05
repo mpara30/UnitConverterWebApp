@@ -3,6 +3,7 @@ package com.rest;
 import com.calculation.LengthCalculation;
 import com.model.Error;
 import com.model.LengthModel;
+import com.util.Constants;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +17,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateMeters(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getMeters() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide meters value");
 
             lengthModel.setError(error);
@@ -38,7 +39,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateFeet(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getFeet() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide feet value");
 
             lengthModel.setError(error);
@@ -60,7 +61,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateInches(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getInches() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide inches value");
 
             lengthModel.setError(error);
@@ -82,7 +83,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateCentimeters(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getCentimeters() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide centimeters value");
 
             lengthModel.setError(error);
@@ -104,7 +105,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateYards(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getYards() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide yards value");
 
             lengthModel.setError(error);
@@ -126,7 +127,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateKilometers(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getKilometers() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide kilometers value");
 
             lengthModel.setError(error);
@@ -148,7 +149,7 @@ public class LengthController {
     public ResponseEntity<LengthModel> calculateMiles(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getMiles() == null) {
             Error error = new Error();
-            error.setErrorCode("400");
+            error.setErrorCode(Constants.BAD_REQUEST_ERROR_CODE);
             error.setErrorMessage("BAD_REQUEST: Need to provide miles value");
 
             lengthModel.setError(error);
