@@ -2,51 +2,51 @@ package com.calculation;
 
 public class TimeCalculation {
 
-    public static double calculateSecondsToMinutes(double seconds){
+    public static Double calculateSecondsToMinutes(Double seconds){
         return seconds / 60;
     }
 
-    public static double calculateSecondsToHours(double seconds){
+    public static Double calculateSecondsToHours(Double seconds){
         return seconds / 3600;
     }
 
-    public static double calculateSecondsToDays(double seconds){
+    public static Double calculateSecondsToDays(Double seconds){
         return seconds / 86400;
     }
 
-    public static double calculateMinutesToSeconds(double minutes){
+    public static Double calculateMinutesToSeconds(Double minutes){
         return minutes * 60;
     }
 
-    public static double calculateMinutesToHours(double minutes){
+    public static Double calculateMinutesToHours(Double minutes){
         return minutes / 60;
     }
 
-    public static double calculateMinutesToDays(double minutes){
+    public static Double calculateMinutesToDays(Double minutes){
         return minutes / 1440;
     }
 
-    public static double calculateHoursToSeconds(double hours){
+    public static Double calculateHoursToSeconds(Double hours){
         return hours * 3600;
     }
 
-    public static double calculateHoursToMinutes(double hours){
+    public static Double calculateHoursToMinutes(Double hours){
         return hours * 60;
     }
 
-    public static double calculateHoursToDays(double hours){
+    public static Double calculateHoursToDays(Double hours){
         return hours / 24;
     }
 
-    public static double calculateDaysToSeconds(double days){
+    public static Double calculateDaysToSeconds(Double days){
         return days * 86400;
     }
 
-    public static double calculateDaysToMinutes(double days){
+    public static Double calculateDaysToMinutes(Double days){
         return days * 1440;
     }
 
-    public static double calculateDaysToHours(double days){
+    public static Double calculateDaysToHours(Double days){
         return days * 24;
     }
 }

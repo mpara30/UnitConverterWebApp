@@ -1,51 +1,51 @@
 package com.calculation;
 
 public class SpeedCalculation {
-    public static double calculateMphToKph(double mph){
+    public static Double calculateMphToKph(Double mph){
         return mph * 1.609344;
     }
 
-    public static double calculateMphToKnots(double mph){
+    public static Double calculateMphToKnots(Double mph){
         return mph / 1.150779;
     }
 
-    public static double calculateMphToMach(double mph){
+    public static Double calculateMphToMach(Double mph){
         return mph / 761.207;
     }
 
-    public static double calculateKphToMph(double kph){
+    public static Double calculateKphToMph(Double kph){
         return kph / 1.609344;
     }
 
-    public static double calculateKphToKnots(double kph){
+    public static Double calculateKphToKnots(Double kph){
         return kph / 1.852;
     }
 
-    public static double calculateKphToMach(double kph){
+    public static Double calculateKphToMach(Double kph){
         return kph / 1225.044;
     }
 
-    public static double calculateKnotsToMph(double knots){
+    public static Double calculateKnotsToMph(Double knots){
         return knots * 1.150779;
     }
 
-    public static double calculateKnotsToKph(double knots){
+    public static Double calculateKnotsToKph(Double knots){
         return knots * 1.852;
     }
 
-    public static double calculateKnotsToMach(double knots){
+    public static Double calculateKnotsToMach(Double knots){
         return knots / 661.4708;
     }
 
-    public static double calculateMachToMph(double mach){
+    public static Double calculateMachToMph(Double mach){
         return mach * 761.207;
     }
 
-    public static double calculateMachToKph(double mach){
+    public static Double calculateMachToKph(Double mach){
         return mach * 1225.044;
     }
 
-    public static double calculateMachToKnots(double mach){
+    public static Double calculateMachToKnots(Double mach){
         return mach * 661.4708;
     }
 }
