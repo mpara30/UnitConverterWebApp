@@ -1,6 +1,7 @@
 package com.rest;
 
 import com.calculation.LengthCalculation;
+import com.model.Error;
 import com.model.LengthModel;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +15,12 @@ public class LengthController {
     @PostMapping("/calculateMeters")
     public ResponseEntity<LengthModel> calculateMeters(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getMeters() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide meters value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double meters = lengthModel.getMeters();
@@ -31,7 +37,12 @@ public class LengthController {
     @PostMapping("/calculateFeet")
     public ResponseEntity<LengthModel> calculateFeet(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getFeet() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide feet value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double feet = lengthModel.getFeet();
@@ -48,7 +59,12 @@ public class LengthController {
     @PostMapping("/calculateInches")
     public ResponseEntity<LengthModel> calculateInches(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getInches() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide inches value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double inches = lengthModel.getInches();
@@ -65,7 +81,12 @@ public class LengthController {
     @PostMapping("/calculateCentimeters")
     public ResponseEntity<LengthModel> calculateCentimeters(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getCentimeters() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide centimeters value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double centimeters = lengthModel.getCentimeters();
@@ -82,7 +103,12 @@ public class LengthController {
     @PostMapping("/calculateYards")
     public ResponseEntity<LengthModel> calculateYards(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getYards() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide yards value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double yards = lengthModel.getYards();
@@ -99,7 +125,12 @@ public class LengthController {
     @PostMapping("/calculateKilometers")
     public ResponseEntity<LengthModel> calculateKilometers(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getKilometers() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide kilometers value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double kilometers = lengthModel.getKilometers();
@@ -116,7 +147,12 @@ public class LengthController {
     @PostMapping("/calculateMiles")
     public ResponseEntity<LengthModel> calculateMiles(@RequestBody LengthModel lengthModel) {
         if (lengthModel.getMiles() == null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Error error = new Error();
+            error.setErrorCode("400");
+            error.setErrorMessage("BAD_REQUEST: Need to provide miles value");
+
+            lengthModel.setError(error);
+            return new ResponseEntity<>(lengthModel, HttpStatus.BAD_REQUEST);
         }
 
         Double miles = lengthModel.getMiles();

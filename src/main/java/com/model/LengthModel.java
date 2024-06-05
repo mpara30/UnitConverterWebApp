@@ -13,4 +13,5 @@ public class LengthModel {
     private Double yards;
     private Double kilometers;
     private Double miles;
+    private Error error;
 }
